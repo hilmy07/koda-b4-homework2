@@ -7,7 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "lint": "npx eslint *.js ./**/*.js",
+    "lint:fix": "npx eslint *.js ./**/*.js --fix"
   },
   "keywords": [],
   "author": "",
